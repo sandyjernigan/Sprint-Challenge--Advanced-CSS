@@ -27,9 +27,13 @@
 
    a {
        color: @nav-font;   
-       text-decoration: none;
        font-family: @bodyFont;
+       text-decoration: none;
        font-weight: bold;
        font-size: 1.8rem;
+
+       @media @phone {
+           font-size: 1.4rem;
+       }
    }
 }
