@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+> An adaptive website will adapt to the different screen sizes predefined. However, it is still limited by the defined screen sizes. A fully responsive website, uses the same kind of idea of the adaptive website to create a user-friendly page by using flexible grids and images as well as queries to scale the page to the different screen sizes. Therefore a responsive website only needs one template for all devices that scales, whereas adaptive websites require templates for each predefined size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+> Mobile First works from the styling with the smallest viewport first increasing to designs for the largest viewport. This is generally seen in css using min-width for the media queries. Whereas, desktop first uses max-width in the media queries. Desktop first focuses on what the webpage will look like on a desktop and work down to smaller sizes and how they will be viewed.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+> It will help to standardize the rem numbers so you do not have to make several calculations. The font-size 62.5% of a 16px standard html font size will convert this to 10 px for the baseline font-size. By converting to 10px baseline you can calculate the rem easier. Now, 1.6 rem will equal 16px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+> Depends on the audience. 
+
+> For an audience new to coding and with some CSS exposure, preprocessing is a way to both simplify and advance your css. It will simplify the css by allowing you to nest your settings together so that it is easier to read and follow. It also advances your css by allowing you to use the same setting multiple times thru your css using a variable so if you need to change that setting you will only have to change the setting on that variable. This is not limited to just 1 setting either, you can also make setting that you repeat in your code into a predefined setting that you can refer back to and reuse.
+
+>For an audience with coding background, preprocessing is a way to code and compile your css. This uses a few of the same concepts as javascript, C++, and other coding languages, by using variables within the css settings. It will also help to 'DRY' the code a bit by allowing you to nest items and create 'mixins'. This will allow you to make a setting that can be reused, somewhat like a function.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+> I really like being about to use variables and escaped strings that can be reused and easily changed. Parametric mixins are really awesome as well, coming from working with php and excel macros these remind me of functions. The concept that gives me the most trouble is just keeping the right order and syntax, like making sure the parenthesis or semicolon are in the right place. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
