@@ -176,13 +176,18 @@ p {
   font-size: 4rem;
   margin: 10px;
 }
+.mainNav nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 600px;
+}
 .mainNav a {
   color: #454A59;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
-  margin: 0 20px;
 }
 footer {
   color: #22283B;
