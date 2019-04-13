@@ -160,6 +160,30 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.mainNav {
+  background-color: #F6F6F6;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  border-bottom: 3px solid #F1F1F1;
+}
+.mainNav .navContainer {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
+.mainNav h1 {
+  font-size: 4rem;
+  margin: 10px;
+}
+.mainNav a {
+  color: #454A59;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0 20px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +193,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 90px;
 }
 .home .intro h2 {
   padding: 15px;

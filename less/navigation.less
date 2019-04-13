@@ -1,1 +1,29 @@
 // Navigation code here
+
+.mainNav {
+   background-color: @nav-bg; 
+   position: fixed;
+   height: 90px;
+   width: 100%;
+   border-bottom: 3px solid @nav-border;
+
+   .navContainer {
+       height: 100%;
+       text-align: center;
+       align-items: center;
+   }
+
+   h1 {
+       font-size: 4rem;
+       margin: 10px;
+   }
+
+   a {
+       color: @nav-font;   
+       text-decoration: none;
+       font-family: @bodyFont;
+       font-weight: bold;
+       font-size: 1.8rem;
+       margin: 0 20px;
+   }
+}
