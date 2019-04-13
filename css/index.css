@@ -265,7 +265,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -291,6 +291,11 @@ footer {
   color: #F6F7F8;
   box-shadow: 2px 2px 4px #5E6164;
   background-color: #23293B;
+}
+.home .walk .walk-text .btn:hover {
+  color: #262b30;
+  box-shadow: 2px 2px 4px #000000;
+  background-color: #9aa4c3;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
