@@ -1,1 +1,40 @@
 // Navigation code here
+
+.mainNav {
+   background-color: @nav-bg; 
+   position: fixed;
+   height: 90px;
+   width: 100%;
+   border-bottom: 3px solid @nav-border;
+   padding: 0 15px;
+
+   .navContainer {
+       height: 100%;
+       text-align: center;
+       align-items: center;
+   }
+
+   h1 {
+       font-size: 4rem;
+       margin: 10px;
+   }
+
+   nav {
+       .flexBox(space-between);
+       display: flex;
+       margin: 0 auto;
+       max-width: 600px;
+   }
+
+   a {
+       color: @nav-font;   
+       font-family: @bodyFont;
+       text-decoration: none;
+       font-weight: bold;
+       font-size: 1.8rem;
+
+       @media @phone {
+           font-size: 1.4rem;
+       }
+   }
+}

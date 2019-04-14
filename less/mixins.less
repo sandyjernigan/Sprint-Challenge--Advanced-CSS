@@ -1,1 +1,26 @@
 // Mixins Here
+
+.flexBox(@justify: flex-start, @align: flex-start) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.button(@button-bg: @header-font-color, @textColor: @porcelain, @shadowColor: @main-font-color) {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: @textColor;
+    box-shadow: 2px 2px 4px @shadowColor;
+    background-color: @button-bg;
+
+    &:hover {
+        color: darken(@textColor, 80%);
+        box-shadow: 2px 2px 4px darken(@shadowColor, 50%);
+        background-color: lighten(@button-bg, 50%);
+    }
+  }
